@@ -9,3 +9,47 @@
   },
   "The Login page opened, the page looks as expected"
 }
+
+
+
+{
+  "TestCase_id":"2",
+  "Title":"Verify that user can log in with valid credentials",
+  "Steps":
+  {
+    "1":"Go to Login page",
+    "2":"Enter valid email and password",
+    "3":"Click on Submit button"
+  },
+  "Expected result":"User successfully logged-in"
+}
+
+
+
+{
+  "TestCase_id":"3",
+  "Title":"Verify that user can restore password by clicking on Forgot Password link",
+  "Steps":
+  {
+    "1":"Go to Login page",
+    "2":"Click on Forgot Password link"
+  },
+  "Expected result":"User successfully redirected on Forgot Password page"
+}
+
+
+
+{
+  "TestCase_id":"4",
+  "Title":"Log in with empty required fields",
+  "Steps":
+  {
+    "1":"Go to Login page",
+    "2":"Enter valid email",
+    "3":"Leave password field empty",
+    "3":"Click on Submit button"
+  },
+  "Expected result":"Error message appears user can't log in"
+}
+
+
