@@ -1,0 +1,60 @@
+
+{
+  "Bug_id":"1",
+  "Priority":"Hight",
+  "Summary":"Login page - Error doesn't appear if invalid Email submitted ",
+  "Steps to reproduce":
+  {
+    "1":"Go to Login page",
+    "2":"Enter invalid email in to the Email field",
+    "3":"Click to the Submit button"
+  },
+  "Expected result":"Email is not valid-error appears ",
+  "Actual result":"Error doesnt appear"
+}
+
+
+{
+  "Bug_id":"2",
+  "Priority":"Hight",
+  "Summary":"Login page - Register link is not clickable",
+  "Steps to reproduce":
+  {
+    "1":"Go to Login page",
+    "2":"Click on Register link"
+  },
+  "Expected result":"Link works and redirects user on the Register Page ",
+  "Actual result":"Link is not clickable "
+}
+
+
+{
+  "Bug_id":"3",
+  "Priority":"Hight",
+  "Summary":"The My Account page can be accessed by an unregistered user",
+  "Steps to reproduce":
+  {
+    "1":"Go to Login page",
+    "2":"Do not log in",
+    "3":"Click on My Account icon"
+  },
+  "Expected result":"Erro appears - user can't be redirected to the My Account page ",
+  "Actual result":"Unregester user is redirected to the My Account page"
+}
+
+
+{
+  "Bug_id":"4",
+  "Priority":"Medium",
+  "Summary":"Login page Email field is not case sensitive",
+  "Steps to reproduce":
+  {
+    "1":"Go to Login page",
+    "2":"Enter valid email adress with all capital letters",
+    "3":"Enter valid password",
+    "4":"Click on Submit button"
+  },
+  "Expected result":"User successfully logged-in ",
+  "Actual result":"Authorization failed"
+}
+
