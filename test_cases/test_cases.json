@@ -1,0 +1,11 @@
+{
+  "TestCase_id":"1",
+  "Title":"Verify that Login Page is displaying",
+  "Steps":
+  {
+    "1":"Open front end",
+    "2":"Proceed to the login page",
+    "3":"Pay attention to the page layout"
+  },
+  "The Login page opened, the page looks as expected"
+}
