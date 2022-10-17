@@ -1,13 +1,11 @@
 {
   "TestCase_id":"1",
-  "Title":"Total price should reflect the product quantity",
+  "Title":"Verify that Login Page is displaying",
   "Steps":
   {
-    "1":"Go to any Category",
-    "2":"Add any item to the Cart",
-    "3":"Go to the Cart",
-    "4":"Change quantity of the product",
-    "5":"Go to the Payment page"
+    "1":"Open front end",
+    "2":"Proceed to the login page",
+    "3":"Pay attention to the page layout"
   },
-  "Expected result":"Total price should reflect to the quantity of the product"
+  "The Login page opened, the page looks as expected"
 }
