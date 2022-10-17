@@ -2,7 +2,7 @@
 {
   "Bug_id":"1",
   "Priority":"Hight",
-  "Summary":"Login page - Error doesnt appear if invalid Email submitted ",
+  "Summary":"Login page - Error doesn't appear if invalid Email submitted ",
   "Steps to reproduce":
   {
     "1":"Go to Login page",
